@@ -1,0 +1,15 @@
+[package]
+name = "sentinel"
+version = "1.0.0"
+authors = []
+
+[addresses]
+sentinel_addr = '_'
+
+[dev-addresses]
+sentinel_addr = '0x111'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework"}
+
+[dev-dependencies]
